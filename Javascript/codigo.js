@@ -451,7 +451,7 @@ for (const i of davidEntradas) {
 }
 console.log(davidEntradas);
 
-const obj = { France: "Paris", England: "London" };
+obj = { France: "Paris", England: "London" };
 // Iterate over the property names:
 for (const country of Object.keys(obj)) {
   const capital = obj[country];
