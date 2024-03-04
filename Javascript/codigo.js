@@ -228,7 +228,6 @@ console.log("" == 0); // con undefined, null y NaN no funciona
 console.log([] == ""); // xd bolean de [] es tru y bolean de "" es false pero son iguales
 console.log("7" === 7);
 console.log(7 === 7);
-console.log([] === "");
 console.log("" === 0);
 console.log("7" != 7);
 console.log("7" !== 7);
