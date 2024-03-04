@@ -206,7 +206,6 @@
       console.log(objeto1.sum);
 
       // objetos
-      const obj1 = {};
 
       const david = {
         nombre: "David",
@@ -490,14 +489,14 @@
       }
       console.log(davidEntradas);
 
-      const obj = { France: "Paris", England: "London" };
+      const obj1 = { France: "Paris", England: "London" };
       // Iterate over the property names:
-      for (const country of Object.keys(obj)) {
-        const capital = obj[country];
+      for (const country of Object.keys(obj1)) {
+        const capital = obj1[country];
         console.log(country, capital);
       }
 
-      for (const [country, capital] of Object.entries(obj)) {
+      for (const [country, capital] of Object.entries(obj1)) {
         console.log(country, capital);
       }
 
